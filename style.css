@@ -24,7 +24,9 @@ header{
     font-weight: bold;
 }
 
-
+#header-title{
+    font-family: monospace;
+}
 .task-container{
     width: 70%;
     margin: 30px;
@@ -32,6 +34,7 @@ header{
     padding: 20px;
     border-radius: 20px;
     background: white;
+    background-color: green;
 }
 
 .add-items{
@@ -58,11 +61,14 @@ header{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    font-family: monospace;
 }
 
 #item-head{
     font-size: 25px;
     margin: 10px auto;
+    font-weight:bold;
+    font-family:monospace;
 }
 
 .item-list ul{
